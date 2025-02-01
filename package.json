@@ -1,0 +1,28 @@
+{
+  "name": "javascript-restpul-api-crud-data-products",
+  "version": "1.0.0",
+  "description": "Endpoint to Create, Read, Upldate, and Delete data products",
+  "homepage": "https://github.com/insinyurBackend/JavaScript-Restpul-Api-CRUD-Data-Products#readme",
+  "bugs": {
+    "url": "https://github.com/insinyurBackend/JavaScript-Restpul-Api-CRUD-Data-Products/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insinyurBackend/JavaScript-Restpul-Api-CRUD-Data-Products.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch ./src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  }
+}
